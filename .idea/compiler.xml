@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="serice-feign" />
+        <module name="service-feign" />
         <module name="service-hello" />
         <module name="service-ribbon" />
         <module name="springCloud" />
@@ -14,6 +16,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.7" />
+      <module name="serice-feign" target="1.7" />
+      <module name="service-feign" target="1.7" />
       <module name="service-hello" target="1.7" />
       <module name="service-ribbon" target="1.7" />
       <module name="springCloud" target="1.7" />
