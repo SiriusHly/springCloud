@@ -5,10 +5,10 @@ eureka:
   instance:
     hostname: localhost
   client:
-  # 默认情况下eureka server也是一个eureka client
-  # 表明自己是一个eureka server.
+  #榛樿鎯呭喌涓媏ureka server涔熸槸涓�涓猠ureka client
+  #琛ㄦ槑鑷繁鏄竴涓猠ureka server.
     registerWithEureka: false
-    # 表明自己是一个eureka server.
+    #琛ㄦ槑鑷繁鏄竴涓猠ureka server.
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
@@ -16,3 +16,5 @@ eureka:
 spring:
   application:
     name: eureka-server
+
+

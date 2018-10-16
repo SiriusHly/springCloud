@@ -23,6 +23,7 @@
     <modules>
         <module>eureka-server</module>
         <module>service-hello</module>
+        <module>service-ribbon</module>
     </modules>
 
     <properties>
