@@ -3,14 +3,12 @@ package com.hly.serviceZuul.filter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import org.apache.http.protocol.RequestContent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-
 
 /**
  * @author :hly
@@ -40,6 +38,7 @@ public class MyZuulFilter extends ZuulFilter {
 
     /**
      * 安全验证逻辑功能
+     *
      * @return
      * @throws ZuulException
      */
@@ -50,7 +49,7 @@ public class MyZuulFilter extends ZuulFilter {
         logger.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURI().toString()));
         Object accessToken = request.getParameter("token");
         if (accessToken == null) {
-            logger.warn("token is empth");
+            logger.warn("token is empty");
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);
             //ctrl+alt+t：快捷try/catch等

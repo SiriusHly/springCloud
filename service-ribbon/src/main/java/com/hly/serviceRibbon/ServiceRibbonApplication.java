@@ -19,7 +19,6 @@ public class ServiceRibbonApplication {
 		SpringApplication.run(ServiceRibbonApplication.class, args);
 	}
 
-
 	@Bean
 	//表明这个restRemplate开启负载均衡的功能
 	@LoadBalanced
