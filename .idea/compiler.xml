@@ -18,15 +18,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config-client" target="1.7" />
-      <module name="config-server" target="1.7" />
-      <module name="eureka-server" target="1.7" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="serice-feign" target="1.7" />
-      <module name="service-feign" target="1.7" />
-      <module name="service-hello" target="1.7" />
-      <module name="service-ribbon" target="1.7" />
-      <module name="service-zuul" target="1.7" />
-      <module name="springCloud" target="1.7" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-hello" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="springCloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
