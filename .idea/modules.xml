@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bus-config-client/bus-config-client.iml" filepath="$PROJECT_DIR$/bus-config-client/bus-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-config-server/eureka-config-server.iml" filepath="$PROJECT_DIR$/eureka-config-server/eureka-config-server.iml" />
@@ -10,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/service-hello/service-hello.iml" filepath="$PROJECT_DIR$/service-hello/service-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-service-hello/sleuth-service-hello.iml" filepath="$PROJECT_DIR$/sleuth-service-hello/sleuth-service-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-service-hi/sleuth-service-hi.iml" filepath="$PROJECT_DIR$/sleuth-service-hi/sleuth-service-hi.iml" />
       <module fileurl="file://$PROJECT_DIR$/springCloud.iml" filepath="$PROJECT_DIR$/springCloud.iml" />
     </modules>
   </component>

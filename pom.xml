@@ -29,6 +29,9 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>eureka-config-server</module>
+        <module>bus-config-client</module>
+        <module>sleuth-service-hello</module>
+        <module>sleuth-service-hi</module>
     </modules>
 
     <properties>
@@ -52,8 +55,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-
 
     </dependencies>
 

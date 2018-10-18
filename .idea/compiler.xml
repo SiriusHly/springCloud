@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bus-config-client" />
         <module name="config-client" />
         <module name="config-server" />
         <module name="eureka-config-server" />
@@ -15,10 +16,13 @@
         <module name="service-hello" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
+        <module name="sleuth-service-hello" />
+        <module name="sleuth-service-hi" />
         <module name="springCloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bus-config-client" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-config-server" target="1.8" />
@@ -28,6 +32,8 @@
       <module name="service-hello" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="service-zuul" target="1.8" />
+      <module name="sleuth-service-hello" target="1.8" />
+      <module name="sleuth-service-hi" target="1.8" />
       <module name="springCloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
