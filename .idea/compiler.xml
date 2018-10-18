@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bus-config-client" />
-        <module name="config-client" />
-        <module name="config-server" />
+        <module name="eureka-config-client" />
         <module name="eureka-config-server" />
+        <module name="eureka-config-server-center" />
         <module name="eureka-server" />
         <module name="serice-feign" />
         <module name="service-feign" />
@@ -23,9 +23,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bus-config-client" target="1.8" />
-      <module name="config-client" target="1.8" />
-      <module name="config-server" target="1.8" />
+      <module name="eureka-config-client" target="1.8" />
       <module name="eureka-config-server" target="1.8" />
+      <module name="eureka-config-server-center" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="serice-feign" target="1.7" />
       <module name="service-feign" target="1.8" />
