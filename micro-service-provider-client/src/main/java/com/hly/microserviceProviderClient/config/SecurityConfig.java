@@ -60,7 +60,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         auth.userDetailsService(userDetailsService);
         //auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
     }
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -83,5 +82,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.logout().logoutSuccessUrl("/");
     }
-
 }

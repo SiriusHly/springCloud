@@ -27,12 +27,6 @@
 	</parent>
 
 	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
-			<scope>test</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -65,6 +59,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>server</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -13,6 +13,7 @@ public class Article {
 
 
     public Article() {
+
     }
 
     public Article(int id, String title, String content) {
@@ -53,4 +54,5 @@ public class Article {
                 ", content='" + content + '\'' +
                 '}';
     }
+
 }

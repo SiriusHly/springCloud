@@ -23,7 +23,7 @@ public class MainService {
         //调用该方法，做了负载均衡，访问不同端口的实例
         //postForObject(),POST 数据到一个URL，返回根据响应体匹配形成的对象,https://blog.csdn.net/itguangit/article/details/78825505
         //使用服务的名称来调用服务,后面是服务的@RequestMapping地址
-        return restTemplate.getForObject("http://micro-service-provider-client/index",String.class);
+        return restTemplate.getForObject("http://micro-service-provider-client/",String.class);
     }
 
     @HystrixCommand(fallbackMethod = "pageError")
