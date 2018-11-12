@@ -43,6 +43,6 @@ eureka:
   client:
     serviceUrl:
     # server服务端镜像名
-      defaultZone: http://server:8761/eureka/
+      defaultZone: http://server:8761/eureka
 
 

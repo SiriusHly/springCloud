@@ -1,4 +1,4 @@
-package com.hly.microserviceDiscoveryEureka;
+package com.hly.serverService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class MicroServiceDiscoveryEurekaApplication {
+public class ServerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroServiceDiscoveryEurekaApplication.class, args);
+		SpringApplication.run(ServerServiceApplication.class, args);
 	}
 }
